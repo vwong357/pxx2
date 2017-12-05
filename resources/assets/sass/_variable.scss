@@ -1,0 +1,45 @@
+html,body{
+  height:100%;
+  background-color:grey;
+}
+
+#wrapper {
+  position:relative;
+  max-width: 90%;
+  display:flex;
+  align-items:center;
+}
+
+#header{
+  position:relative;
+}
+
+#sidebar {
+
+  width: 200px;
+  position:relative;
+  height:1000px;
+  display:flex;
+}
+
+
+
+$white: white;
+
+@media(min-width: 576px) {
+  body {
+    background-color: $white;
+  }
+}
+
+@media(min-width: 768px) {
+  body {
+    background-color: $white;
+  }
+}
+
+@media(min-width: 992px) {
+  body {
+    background-color: $white;
+  }
+}
